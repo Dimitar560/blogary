@@ -1,0 +1,51 @@
+
+.RegistrationForm{
+    display: grid;
+    grid-template-areas: "title"
+                         "inp1" 
+                         "inp2"
+                         "inp3" 
+                         "btn";
+    grid-template-columns: 1fr;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px ;
+}
+
+.loginTitle{
+    color: white;
+    margin: 0 auto;
+    grid-area: title;
+    font-size: 1.5rem;
+}
+
+.usernameInp{
+    grid-area: inp1;
+}
+
+.passwordInp{
+    grid-area: inp2;
+}
+
+.cpasswordInp{
+    grid-area: inp3;
+}
+
+.buttonArea{
+    margin: 0 auto;
+    grid-area: btn;
+}
+
+@media (max-width: 600px) {
+    .RegistrationForm{
+      grid-template-areas: "title"
+                           "inp1"
+                           "inp2" 
+                           "inp3"
+                           "btn";
+      grid-template-columns: 1fr;
+      min-height: 200px;
+      padding: 0 auto;
+    }
+}

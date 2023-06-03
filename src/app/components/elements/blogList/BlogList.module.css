@@ -1,0 +1,21 @@
+.container {
+
+    padding: 25px;
+    margin: 25px 25px;
+
+    background-color: rgb(255, 152, 114);  
+    
+    display: flex;
+
+    flex-flow: column;
+
+    gap: 25px;
+    color: white;
+
+    border-radius: 5%;
+
+}
+
+.splitLine{
+    border: 1px solid white;
+}

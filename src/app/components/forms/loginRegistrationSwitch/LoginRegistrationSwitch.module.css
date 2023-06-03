@@ -1,0 +1,20 @@
+.container {
+    min-height: 250px;
+    max-width: 650px;
+    margin: 100px auto;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    background-color: rgb(255, 152, 114);  
+    
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-flow: column;
+}
+
+.btnSwitch{
+    margin: 0 auto;
+    align-self: center;
+    justify-self: center;
+    padding-bottom: 25px;
+}

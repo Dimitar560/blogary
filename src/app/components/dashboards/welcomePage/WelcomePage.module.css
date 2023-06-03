@@ -1,0 +1,17 @@
+.textWrap{
+    padding: 45px;
+
+    display: flex;
+    gap: 25px;
+    flex-flow: column wrap;
+}
+
+.userText{
+    font-size: 1.5rem;
+
+    align-self: center;
+}
+
+.longText{
+    font-size: 1.2rem;
+}

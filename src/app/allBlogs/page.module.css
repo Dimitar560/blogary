@@ -1,0 +1,16 @@
+.noBlogs{
+    padding: 25px;
+    margin: 25px 25px;
+
+    background-color: rgb(255, 152, 114);  
+    
+    display: flex;
+
+    flex-flow: column;
+    align-items: center;
+
+    font-size: 1.5rem;
+
+    gap: 25px;
+    color: white;
+}

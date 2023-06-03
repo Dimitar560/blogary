@@ -1,0 +1,31 @@
+.container{
+    margin: 75px 25px 25px 25px;
+    padding: 25px;
+    background-color:  rgb(255, 152, 114);
+
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+
+}
+
+.container > span {
+    color: white;
+}
+
+.splitLine{
+    border: 1px solid white;
+}
+
+.goBack{
+
+    position: absolute;
+
+    text-decoration: none;
+
+    padding: 5px;
+    margin: 25px;
+    color: white;
+
+    background-color: rgb(255, 152, 114);;
+}

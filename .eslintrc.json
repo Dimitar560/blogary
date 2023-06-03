@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+
+  "rules" : {
+
+    "indent": ["warn", 4],
+    
+    "semi": ["warn", "always"],
+    
+    // "linebreak-style": ["warn", "unix"],
+    
+    "quotes": ["warn", "single"]
+
+  }
 }
